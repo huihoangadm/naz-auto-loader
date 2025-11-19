@@ -13,7 +13,7 @@
         const key = new Uint8Array(keyBuf);
 
         // Update this PAYLOAD_URL to the raw URL where you host payload_PRO.js
-        const PAYLOAD_URL = "REPLACE_WITH_RAW_URL_TO_payload_PRO.js";
+        const PAYLOAD_URL = "https://raw.githubusercontent.com/huihoangadm/naz-auto-loader/refs/heads/main/payload_PRO.js";
 
         const res = await fetch(PAYLOAD_URL, { cache: "no-store" });
         if (!res.ok) {
