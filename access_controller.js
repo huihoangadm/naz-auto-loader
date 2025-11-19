@@ -11,7 +11,7 @@
             return;
         }
 
-        const PAYLOAD_URL = "REPLACE_WITH_RAW_URL_TO_ai_obf.js";
+        const PAYLOAD_URL = "https://raw.githubusercontent.com/huihoangadm/naz-auto-loader/refs/heads/main/ai_obf.js";
 
         const res = await fetch(PAYLOAD_URL, { cache: "no-store" });
         if (!res.ok) { alert("Không thể tải payload!"); return; }
